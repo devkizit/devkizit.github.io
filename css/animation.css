@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  list-style: none !important;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+.full-screen video {
+  margin: auto;
+}
+body {
+  text-decoration: none;
+}
+#real {
+  list-style: none;
+}
+h2,
+li {
+  text-align: center !important;
+  position: relative;
+  font-size: 4em;
+  color: #fff;
+}
+#GOD IS GOOD {
+  text-decoration: none;
+  cursor: pointer;
+}
+#GOD IS LOVE {
+  text-decoration: none;
+  cursor: pointer;
+}
+h2,
+li::before {
+  content: "";
+  position: relative;
+  left: 120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+  animation: animate 300s linear forwards;
+}
+h2,
+li::after {
+  content: "";
+  position: relative;
+  left: 120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+  animation: animate 300s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    left: -20%;
+  }
+  50% {
+    left: 120%;
+  }
+  100% {
+    left: -20%;
+  }
+}
+
+/*#GOD IS GOOD a:hover {
+  background: black;
+} */
+/*#GOD IS GOOD a {
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff4655;
+  text-align: center;
+  color: azure;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.4s linear;
+} */
+/*#GOD IS LOVE a {
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff4655;
+  text-align: center;
+  color: azure;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.4s linear;
+} */
